@@ -1,0 +1,17 @@
+
+@media (min-width: 1024px) {
+.mobile-menu{
+    display: none;
+}
+}
+
+
+
+@media (max-width: 740px) {
+    .nav__title{
+        display: block;
+    }
+    .header_seach{
+        display: none;
+    }
+}
