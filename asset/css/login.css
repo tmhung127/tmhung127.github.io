@@ -1,0 +1,45 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 85px;
+}
+.header__logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.header__logo-img{
+    width: 150px;
+}
+
+.heaer__logo-title{
+    font-size: 2.7rem;
+    margin-left: 30px;
+    color: var(--text-color);
+}
+
+.header__help{
+    color: var(--primary-color);
+    font-size: 1.6rem;
+    float: right;
+    text-decoration:none;
+}
+
+.body{
+    width: 100%;
+    background-color: rgb(238, 77, 45);
+    
+  
+
+}
+
+.body-full{
+    background-position:center center ;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-image: url(https://cf.shopee.vn/file/5569eb9dc7e09e2dbed5315b8f2ea8ba);
+}
+
